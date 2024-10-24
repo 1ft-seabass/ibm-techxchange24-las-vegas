@@ -4,6 +4,24 @@
 
 We will explain the detail of my CodeEngine.
 
+## Code Engine dashbord
+
+![alt text](images/02-codeengine/02-codeengine-1.png)
+
+Over View.
+
+![alt text](images/02-codeengine/02-codeengine-2.png)
+
+It's today instance detail. We use as a application.
+
+![alt text](images/02-codeengine/02-codeengine-5.png)
+
+I'm developing a prototyping it in GitHub repository.
+
+![alt text](images/02-codeengine/02-codeengine-3.png)
+
+And it keeps instance 1 active, not 0. Because we would like to avoid a cold start and keep a rapid start.
+
 ## Code Engine Node.js code
 
 ```js
@@ -313,3 +331,15 @@ app.listen(process.env.PORT || 8080, () => {
   console.log(`app listening at http://localhost:${process.env.PORT || 8080}`)
 })
 ```
+
+## Future step up = Functions
+
+![alt text](images/02-codeengine/02-codeengine-5.png)
+
+I'm developing a prototyping it in GitHub repository.
+
+![alt text](images/02-codeengine/02-codeengine-4.png)
+
+And I know Code Engine Function type. It ease to develop with Web GUI based Node.js "direct" coding.
+
+Also I learned the detail from this event Sandbox Cloud booth directly! Thanks!
